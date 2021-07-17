@@ -1,7 +1,7 @@
 # chatbot_py
 
 ## Discription
-this project was Chatbot using python
+This project is Chatbot using python and AI
 
 ## Index
 - [Intents](intents.json)
