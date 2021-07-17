@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hello I am looking for some help here","Hey how are you doing","Heyy","yo"],
+         "responses": [ "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","thx"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","i don't know how to use the robots","what does the robot do ?","help","i don't know how to use the robots","i need assistance"],
+         "responses": ["I can guide you on how to use the base robot and the arm robot"],
+         "context": [""]
+        },
+        {"tag": "base",
+         "patterns": ["base","base robot","How does the base robot work","how do you use the base robot"],
+         "responses": ["You can use the buttons to move the base in four directions \"backward\",\"forward\",\"left\" and \"right\""],
+         "context": [""]
+        },
+        {"tag": "arm",
+         "patterns": ["arm","arm robot","How does the arm robot work","how do you use the arm robot"],
+         "responses": ["you have to either choose \"save changes\" which will save the degree of each motor; or use \"run\" which will also save the desired degrees and run the robot. "],
+         "context": [""]
+        }
+   ]
+}
